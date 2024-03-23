@@ -2,10 +2,10 @@
         
             width: 70%;
             margin: auto;
-            background-color: rgba(255, 255, 255, 0.8); /* White with 50% opacity */
+            background-color: rgba(255, 255, 255, 0.8); 
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
         }
         .titulo{
             text-align: center;
@@ -18,28 +18,28 @@
             
         }
         form {
-            text-align: left; /* Center align the form elements */
+            text-align: left; 
           
         }
 
         form label {
-            display: block; /* Ensures each label and input is on a new line */
-            margin-bottom: 10px; /* Adds space between label and input */
+            display: block; 
+            margin-bottom: 10px; 
             font-family: Arial, Helvetica, sans-serif;
         }
 
         form input[type="file"],
         form input[type="text"],
         form textarea {
-            width: 100%; /* Makes inputs fill the container width */
+            width: 100%;
             padding: 8px;
             margin-bottom: 10px;
-            box-sizing: border-box; /* Ensures padding doesn't affect width */
+            box-sizing: border-box; 
         }
 
         .custom-file-upload {
             display: inline-block;
-            background-color: #4CAF50; /* Green background color for the button */
+            background-color: #4CAF50; 
             color: white;
             border: none;
             padding: 10px 20px;
@@ -49,11 +49,11 @@
         }
 
         .custom-file-upload:hover {
-            background-color: #45a049; /* Darker green color on hover */
+            background-color: #45a049; 
         }
 
         form input[type="submit"] {
-            background-color: #4CAF50; /* Green background color */
+            background-color: #4CAF50; 
             color: white;
             border: none;
             padding: 10px 20px;
@@ -66,7 +66,7 @@
         }
 
         form input[type="submit"]:hover {
-            background-color: #45a049; /* Darker green color on hover */
+            background-color: #45a049; 
         }
         form textarea {
             resize: none;
