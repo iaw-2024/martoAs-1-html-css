@@ -1,0 +1,34 @@
+body {
+    background-image: url('../../listado/imagenes/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 3%;
+}
+#formulario {
+    width: 60%; 
+    margin: 0 auto; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+#boton{
+    margin-top: 3%;
+}
+
+#navbar .bg-body-tertiary {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+}
+
+  
