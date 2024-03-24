@@ -89,7 +89,7 @@
         }
 
         body {
-            background-image: url('background.jpg');
+            background-image: url('../../listado/imagenes/background.jpg');
             background-size: cover;
             background-position: center;
         }
