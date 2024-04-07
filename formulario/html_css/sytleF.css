@@ -72,20 +72,18 @@
             resize: none;
         }
 
-        .link {
-            text-align: center;
+        .navbar {
             padding: 10px;
-            margin: 0 auto; 
-            margin-top: 30px;
-        }
-        
-        .link a {
-            color: black;
-            font-family: 'Arial', sans-serif;
-            text-decoration: none;
+            margin-bottom: 2%;
             background-color: rgba(255, 255, 255, 0.5);
             padding: 15px;
             border-radius: 10px;
+        }
+        
+        .navbar a {
+            color: black;
+            font-family: 'Arial', sans-serif;
+            text-decoration: none;
         }
 
         body {
