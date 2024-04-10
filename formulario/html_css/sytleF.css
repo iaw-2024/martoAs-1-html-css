@@ -1,0 +1,93 @@
+        .form-container {
+        
+            width: 70%;
+            margin: auto;
+            background-color: rgba(255, 255, 255, 0.8); 
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+        }
+        .titulo{
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 5px;
+            border-radius: 10px;
+            width: 70%;
+            margin: auto;
+            margin-bottom: 20px;
+            
+        }
+        form {
+            text-align: left; 
+          
+        }
+
+        form label {
+            display: block; 
+            margin-bottom: 10px; 
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        form input[type="file"],
+        form input[type="text"],
+        form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box; 
+        }
+
+        .custom-file-upload {
+            display: inline-block;
+            background-color: #4CAF50; 
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .custom-file-upload:hover {
+            background-color: #45a049; 
+        }
+
+        form input[type="submit"] {
+            background-color: #4CAF50; 
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #45a049; 
+        }
+        form textarea {
+            resize: none;
+        }
+
+        .navbar {
+            padding: 10px;
+            margin-bottom: 2%;
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 15px;
+            border-radius: 10px;
+        }
+        
+        .navbar a {
+            color: black;
+            font-family: 'Arial', sans-serif;
+            text-decoration: none;
+        }
+
+        body {
+            background-image: url('../../listado/imagenes/background.jpg');
+            background-size: cover;
+            background-position: center;
+        }

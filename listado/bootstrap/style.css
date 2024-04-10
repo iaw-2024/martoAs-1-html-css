@@ -1,0 +1,103 @@
+#list-example {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+}
+  
+body {
+    background-image: url('../imagenes/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.col-4,
+.col-8{
+    padding-top: 5%;
+}
+
+.col-4{
+    padding-left: 1%;
+    padding-right: 1%;
+
+}
+
+.personaje{
+    display: flex;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2%;
+    align-items: center;
+    border-radius: 10px; 
+}
+
+.personaje img{
+    max-width: 100%; 
+    border-radius: 10px; 
+    width: 150px;
+    float: left;
+    margin-right: 2%;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: solid;
+    text-align: justify;
+   
+}
+
+h4{
+    margin-bottom: 3%;
+    margin-right: 1.5%;
+    text-align: center;
+}
+
+
+.row{
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.gris:hover {
+    background-color: lightgray;
+}
+.verde:hover {
+    background-color: lightgreen;
+}
+.rojo:hover {
+    background-color: lightcoral;
+}
+.azul:hover {
+    background-color: lightblue;
+}
+
+#navbar .bg-body-tertiary {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+}
+#navbar{
+    margin-bottom: 3%;
+}
+
+@media (max-width: 670px) {
+    .personaje {
+      flex-direction: column;
+    }
+    .personaje img {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
